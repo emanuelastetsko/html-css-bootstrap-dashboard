@@ -21,6 +21,10 @@ header{
     top: 0;
 }
 
+#search{
+    background-color: rgb(234, 234, 234);
+}
+
 /* MAIN */
 main{
     background-color: #f8f9fa;
