@@ -63,6 +63,19 @@ main section{
     height: 15%;
     width: 100%;
 }
+#blue-section.boolean{
+    line-height: 70px;
+}
+
+#blue-section h2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#blue-section .special-span{
+    vertical-align: middle;
+}
+
 
 #dashboard{
     overflow: auto;
