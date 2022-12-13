@@ -11,6 +11,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.light-grey{
+    background-color: #f8f9fa;
+}
+.spacing{
+    padding: 10px 0;
+}
+
+.ultimate-spacing{
+    padding: 6px 0;
+}
+
+span.green{
+    background-color: #198754;
+}
+
+span.yellow{
+    background-color: #ffc107;
+}
+
+span.red{
+    background-color: #dc3545;
+}
+
+
 /* HEADER */
 header{
     width: 100%;
@@ -111,8 +135,34 @@ span.bigger{
 }
 
 #dashboard{
+    background-color: white;
     overflow: auto;
 }
+
+.class-list{
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.class-list img{
+    width: 7%;
+    height: auto;
+    padding-right: 5px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.class-list span{
+    vertical-align: middle;
+}
+
+.initial-date,
+.roi,
+.status,
+.action{
+    line-height: 30px;
+}
+
 
 #faq span{
     display: block;
