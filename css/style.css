@@ -7,14 +7,7 @@
 
 
 /* REGOLE GENERALI */
-ul{
-    list-style: none;
-}
 
-a{
-    text-decoration: none;
-    color: white;
-}
 
 /* HEADER */
 header{
@@ -39,6 +32,15 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
 }
 
 aside ul li{
@@ -76,9 +78,13 @@ main section{
     vertical-align: middle;
 }
 
-
 #dashboard{
     overflow: auto;
+}
+
+#statistiche img{
+    width: 100%;
+    height: auto;
 }
 
 /* MEDIA QUERY */
