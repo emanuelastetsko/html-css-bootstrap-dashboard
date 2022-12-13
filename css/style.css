@@ -7,7 +7,9 @@
 
 
 /* REGOLE GENERALI */
-
+*{
+    font-style: ;
+}
 
 /* HEADER */
 header{
@@ -80,6 +82,17 @@ main section{
 
 #dashboard{
     overflow: auto;
+}
+
+#faq span{
+    display: block;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+#faq span:last-of-type{
+
+    border-bottom: none;
 }
 
 #statistiche img{
