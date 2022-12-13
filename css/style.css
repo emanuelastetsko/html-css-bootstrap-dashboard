@@ -7,8 +7,8 @@
 
 
 /* REGOLE GENERALI */
-*{
-    font-style: ;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -17,6 +17,8 @@ header{
     height: 70px;
     background-color: #f8f9fa;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
 }
 
 /* MAIN */
@@ -25,6 +27,7 @@ main{
     width: 100%;
     height: calc(100vh - 70px);
     display: flex;
+    overflow: auto;
 }
 
 aside{
@@ -67,6 +70,7 @@ main section{
     height: 15%;
     width: 100%;
 }
+
 #blue-section.boolean{
     line-height: 70px;
 }
@@ -74,6 +78,28 @@ main section{
 #blue-section h2{
     display: inline-block;
     vertical-align: middle;
+}
+
+#label{
+    background-color: #165bba;
+    font-size: 0.9em;
+}
+
+#badge-group, 
+#number-students{
+    line-height: 25px;
+}
+
+#badge-group i{
+    vertical-align: middle;
+}
+
+#badge-group span{
+    vertical-align: middle;
+}
+
+span.bigger{
+    font-size: 2em;
 }
 
 #blue-section .special-span{
