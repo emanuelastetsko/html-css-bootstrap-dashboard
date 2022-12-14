@@ -74,8 +74,18 @@ aside{
     justify-content: space-between;
 }
 
+aside li:hover{
+    background-color: rgb(210, 209, 209);
+    color: white;
+}   
+
+aside a:hover{
+    color: white;
+} 
+
 aside ul{
     list-style: none;
+    padding: 0 10px;
 }
 
 aside a{
@@ -85,6 +95,7 @@ aside a{
 
 aside ul li{
     line-height: 30px;
+    padding: 0 15px;
 }
 
 aside i{
