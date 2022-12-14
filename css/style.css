@@ -14,13 +14,6 @@ body {
 .light-grey{
     background-color: #f8f9fa;
 }
-.spacing{
-    padding: 10px 0;
-}
-
-.ultimate-spacing{
-    padding: 6px 0;
-}
 
 span.green{
     background-color: #198754;
@@ -72,7 +65,7 @@ main{
 }
 
 aside{
-    width: 200px;
+    width: 150px;
     height: calc(100vh - 70px);
     background-color: #051e34;
     display: flex;
@@ -103,7 +96,7 @@ aside span{
 }
 
 main section{
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
     height: 100%;
     overflow-y: auto;
 }
@@ -112,6 +105,7 @@ main section{
     background-color: #1b72e8;
     height: 15%;
     width: 100%;
+    overflow: hidden;
 }
 
 #blue-section.boolean{
@@ -153,13 +147,12 @@ span.bigger{
     background-color: white;
 }
 
-.class-list{
-    line-height: 30px;
-    padding: 10px 0;
+.row-height{
+    line-height: 40px;
 }
 
 .class-list img{
-    width: 7%;
+    width: 2em;
     height: auto;
     padding-right: 5px;
     background-color: white;
@@ -170,14 +163,6 @@ span.bigger{
     vertical-align: middle;
 }
 
-.initial-date,
-.roi,
-.status,
-.action{
-    line-height: 30px;
-}
-
-
 #faq span{
     display: block;
     border-bottom: 1px solid lightgrey;
@@ -185,7 +170,6 @@ span.bigger{
 }
 
 #faq span:last-of-type{
-
     border-bottom: none;
 }
 
