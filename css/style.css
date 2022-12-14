@@ -114,7 +114,7 @@ main section{
 
 #blue-section{
     background-color: #1b72e8;
-    height: 15%;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
