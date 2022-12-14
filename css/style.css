@@ -194,11 +194,26 @@ span.bigger{
 @media all and (max-width: 992px){
 
     aside{
-        width: 100px;
+        width: 80px;
     }
 
     main section{
-        width: calc(100% - 100px);
+        width: calc(100% - 80px);
     }
 }
+
+@media all and (max-width: 992px){
+    .disappear{
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px){
+    .disappear-later{
+        display: none;
+    }
+}
+
+
+
 
