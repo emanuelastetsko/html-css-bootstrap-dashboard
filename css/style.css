@@ -45,9 +45,23 @@ header{
     top: 0;
 }
 
+header img{
+    padding-top: 7px;
+}
+
 #search{
     background-color: rgb(234, 234, 234);
+    margin-top: 2px;
 }
+
+.nav-list{
+    padding: 0;
+}
+
+.bell-notification{
+    padding-top: 10px;
+}
+
 
 /* MAIN */
 main{
@@ -55,7 +69,6 @@ main{
     width: 100%;
     height: calc(100vh - 70px);
     display: flex;
-    overflow: auto;
 }
 
 aside{
@@ -136,7 +149,6 @@ span.bigger{
 
 #dashboard{
     background-color: white;
-    overflow: auto;
 }
 
 .class-list{
@@ -179,6 +191,7 @@ span.bigger{
     width: 100%;
     height: auto;
 }
+
 
 /* MEDIA QUERY */
 @media all and (max-width: 992px){
